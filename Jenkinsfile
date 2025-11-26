@@ -6,8 +6,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git url: 'https://github.com/dhaddyk17/IC10',
-                    branch: 'master',
-                    credentialsId: 'github-token'
+                    branch: 'main'
             }
         }
 
